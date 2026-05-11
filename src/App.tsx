@@ -4,7 +4,9 @@ import NameScreen from './components/NameScreen';
 import QuizScreen from './components/QuizScreen';
 import ResultScreen from './components/ResultScreen';
 import type { CoreCode, Suffix } from './data/types';
-import type { Axis, Answers } from './components/QuizScreen';
+import type { Answers } from './components/QuizScreen';
+
+type Axis = 'HL' | 'AB' | 'RF' | 'PI' | 'VS';
 import { QUESTIONS } from './data/questions';
 
 type Phase = 'intro' | 'name' | 'quiz' | 'result';
