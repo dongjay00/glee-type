@@ -27,7 +27,7 @@ export default function IntroScreen({ onStart }: Props) {
             </div>
           </div>
           <div className="flex items-start gap-3">
-            <span className="text-2xl">⏱</span>
+            <span className="text-2xl">🕐</span>
             <div>
               <p className="text-white text-sm font-semibold">총 30문항, 약 7분</p>
               <p className="text-slate-400 text-xs mt-0.5">직관적으로, 처음 떠오르는 답을 선택하세요</p>
