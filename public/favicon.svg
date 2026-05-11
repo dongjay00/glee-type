@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0c1322"/>
+    </linearGradient>
+    <linearGradient id="note" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 배경 (rounded square) -->
+  <rect width="32" height="32" rx="7" fill="url(#bg)"/>
+
+  <!-- 하단 컬러 포인트 바 -->
+  <rect x="0" y="28" width="32" height="4" rx="0" fill="#8b5cf6" opacity="0.85"/>
+  <rect x="0" y="29.5" width="32" height="2.5" rx="0" fill="url(#bg)" opacity="0.3"/>
+  <rect x="0" y="29" width="32" height="3" rx="2" fill="#8b5cf6" opacity="0.9"/>
+
+  <!-- 왼쪽 음표 (머리 + 스템) -->
+  <ellipse cx="10" cy="22.5" rx="4.8" ry="3.4"
+           transform="rotate(-16 10 22.5)" fill="url(#note)"/>
+  <rect x="14.3" y="8" width="2" height="14.8" rx="1" fill="url(#note)"/>
+
+  <!-- 오른쪽 음표 (머리 + 스템) -->
+  <ellipse cx="21" cy="23.5" rx="4.8" ry="3.4"
+           transform="rotate(-16 21 23.5)" fill="url(#note)"/>
+  <rect x="25.3" y="10" width="2" height="13.8" rx="1" fill="url(#note)"/>
+
+  <!-- 두 스템을 잇는 빔 -->
+  <rect x="14.3" y="8" width="13" height="2.8" rx="1.4" fill="url(#note)"/>
+</svg>
